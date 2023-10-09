@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/posto-de-gasolina.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+    <form id="formulario" class="formulario">
+        <h1>Calculadora de Combustível Flex</h1>
+        <img src="img/trabalhador (1).png" id="status" alt="tanqueCombustivel"><br>
+
+        
+        <label for="etanl">Etanol</label><br>
+        <input type="number" id="etanol" placeholder="Valor Etanol..."><br>
+        <label for="gasolina">Gasolina</label><br>
+        <input type="number" id="gasolina" placeholder="Valor da gasolina..."><br>
+
+        <input type="button" class="botao" value="vantagem" onclick="calcular()">
+        <input type="button" class="botao" value="limpar" onclick="limpar()">
+    </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

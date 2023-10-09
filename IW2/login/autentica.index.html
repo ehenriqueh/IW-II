@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/usuario.png">
+    <title>Autenticar Usuário</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#.php" method="get" class="formulario" id="formulario">
+            
+                <h1> Autentificação de Usuário </h1>
+                
+                <label for="login"> Login: </label>
+                <input type="text" name="usuario" id="usuario" placeholder="Insira o usuário..." required>
+                
+                <br><br>
+                
+                <label for="senha"> Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Insira a senha..." required>
+            
+            <br><br>
+            <input type="button" value="Enviar" class="botao" onclick="autenticar()">
+            <div id="mensagem"></div>
+
+    </form>
+    <video autoplay loop muted>
+        <source src="img/bokeh_-_3787 (540p).mp4" type="video/mp4">
+    </video>
+    
+    </div>
+    <div class="bg-color"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
